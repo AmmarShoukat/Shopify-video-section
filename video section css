@@ -1,0 +1,32 @@
+.prod_video{
+  position:relative;
+}
+.prod_video img {
+    width: 100%;
+    object-fit: cover;
+}
+button.video_btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    background-size: cover !important;
+    border-radius: 50%;
+    background: transparent;
+    border: 10px solid #fff;
+}
+.video_btn span {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: 38%;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 26px solid #ffffff;
+    border-top: 15px solid transparent;
+    align-self: center;
+    border-bottom: 15px solid transparent;
+}
